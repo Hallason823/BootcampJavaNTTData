@@ -38,11 +38,13 @@ public class Person {
     public static String getTest() {
         return test;
     }
-//I get acess with this, because test is static
+    
+//I can't acess with this, because test is static
 //as instancias compartilham estes valores estáticos
 //o valor é da classe, não pertence a instância
 //metodos estáticos não tem acesso ao this
 //i.e., não conseguir acessar atributos não estáticos
+
     public static void setTest(String testParam) {
         test = testParam;
     }
